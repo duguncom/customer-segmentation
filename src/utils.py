@@ -5,13 +5,9 @@ import datetime
 import os
 import warnings
 warnings.filterwarnings("ignore")
-import pickle
 import csv
 from sqlalchemy import create_engine, types
 import matplotlib.pyplot as plt
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn import metrics
-from sklearn.metrics import classification_report
 from sqlalchemy import inspect
 from sqlalchemy import MetaData
 from sqlalchemy import Table, Column, Integer, String, Float, DateTime
