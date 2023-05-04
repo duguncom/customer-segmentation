@@ -1,0 +1,14 @@
+pathlib==1.0.1
+plotly==5.13.0
+pandas==1.5.0
+numpy==1.23.3
+scikit-learn==1.1.2
+mysqlclient==2.1.1
+sqlalchemy==2.0.4
+mysql-connector-python==8.0.32
+IPython==8.4.0
+python-utils==1.0.1
+sweetviz==2.1.4
+nbformat==5.8.0
+ipykernel==6.22.0
+PyMySQL==1.0.2
