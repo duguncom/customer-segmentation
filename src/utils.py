@@ -177,7 +177,7 @@ def get_data(sql_list_name,directory):
      fd = open(f, 'r')
      sqlFile = fd.read()
      database_selected = pd.read_sql(sqlFile,myconn)
-     data_folder = os.path.join('..','data')
+     data_folder = os.path.join(os.getcwd(),'data')
      data_path = os.path.join(data_folder,f'{sql_list_name[i]}.csv')
      database_selected.to_csv(data_path)
      f"the file {filename} has read and saved"
