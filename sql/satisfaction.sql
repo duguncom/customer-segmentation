@@ -1,3 +1,4 @@
+-- this sql is for satisfaction status which is wanted from other teams and not included in our segmentation process
 select cn.customer_id,
        cn.provider_id,
        cn.created_at as satisfaction_date,

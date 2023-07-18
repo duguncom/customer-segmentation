@@ -1,3 +1,4 @@
+-- this sql is for the record of payments 
 select
 payment.id as payment_id,
 case when payment.recurring_month is null and amount = 1 then 1 else payment.recurring_month end as recurring_month,

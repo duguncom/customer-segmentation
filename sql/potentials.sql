@@ -1,3 +1,4 @@
+-- thi sql is for budget information of customers
 select
 pf.provider_id,
 pf.customer_id,
